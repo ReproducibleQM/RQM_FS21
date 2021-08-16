@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RQM Handbook- Lesson 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Christie Bahlai + MSL Team"/>
+    <!-- STYLES -->
+    <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic,500,500italic,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/RQM_FS19/assets/css/style.css">
+    <link rel="icon" type="image/ico" href="https://mozillascience.org/img/favicon.ico">
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/RQM_FS19/assets/javascript/script.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/RQM_FS19/assets/javascript/table.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+
+  <body>
+  <!-- SIDE BAR NAVIGATION -->
+  	<aside>
+  		<div class="image">
+  			<img src="/RQM_FS19/assets/images/science-fox_violeta.svg">
+  		</div>
+  		<nav>
+  		  <a class="selected" href="#topics">Topics and resources</a>
+		  <a href="#exercises">Exercises</a>
+  		  <a href="#discussion">Discussion</a>
+  		  <a href="#navigate">Navigate</a>
+  		</nav>
+  	</aside>
+  <!-- BODY TEXT -->
+  	<article>
+      <div class="logo">
+        <a href="https://mozillascience.org" title="Mozilla Science Lab">
+          <img src="/RQM_FS19/assets/images/science-lab-logo.svg" />
+        </a>
+      </div>
+	<!-- TITLE -->
+      <h1>Reproducible Quantitative Methods</h1>
+      <h2>Lesson 1</h2>
+
+  <!-- META INFO -->
+      <div class="meta-information">
+
+        <p class="summary">
+           Introduction to reproducibility and open science frameworks
+        </p>
+
+      </div>
+
+      <div class="image">
+        <img src="/RQM_FS19/assets/images/octopode-bar.jpg" alt="yeah bar" height="90" width="770">
+      </div>
+	<!-- Topics -->
+		<h2 id="topics">Topics and Resources</h2>
+	<ol class="steps">
+        <!-- Topic 1 -->
+        <li>
+          <h1>Course syllabus and expectations </h1>
+          <p> <a href="syllabus.html">Here is our class syllabus</a></p>
+          <p>This is a project-based learning course. The idea is to mentor students through a complete reproducible workflow, using a real dataset, with the intention of publishing their work as a manuscript, complete with data and code products. This project based approach is meant to stimulate the natural scientific curiosity that we wouldn't get from using canned examples to complete the exercises, and to motivate us by offering authorship on conventional scientific products- all while giving us skills that will bring their work into compliance with federal funder guidelines (for example, <a href="http://www.nsf.gov/pubs/2015/nsf15052/nsf15052.pdf">NSF</a>). This means we'll need to start with some data. The good news is, unused (or under-used) data is everywhere.</p>
+          <p>See Simon Leather’s <a href="https://simonleather.wordpress.com/2016/06/28/data-i-am-never-going-to-publish-in-peer-reviewed-journals/">post on unused data that needs love</a></p>
+          <p>I want us to have groups established with appropriate data sets identified by week 2 of the class. Let's use <a href="https://etherpad.net/p/RQM_FS19">this etherpad to discuss the available projects</a>. New to etherpad? think of it as a collective notepad, with chat functionality. We can, and will, use these for a lot of purposes in this class. Need a fresh etherpad for a new project? <a href="https://etherpad.net/">Go here.</a></p>
+          <p> How are we going to keep track of our progress? this is a component of the grade. In previous offerings, you see that we used a class blog, but I'm lukewarm on that now. Let's consider a few options that we can use to keep track of what we're doing and what we did- and I'll elect one of your classmates to set this up. Similarly, how are we going to communicate about class and our respective projects? Let's discuss options.</p>
+
+        </li>
+        <!-- Topic 2 -->
+        <li>
+           <h1>Open science, open data, & reproducibility</h1>
+          <p>What is open science? What is open data? We'll use this time to talk, in very broad terms, what reproducibility and open science are, how they fit together, and why they're important. For this topic, I'll ask the class to come up with a definition together, and then clarify or tweak. This is a good opportunity for me to gauge prior knowledge and attitudes. Here are some resources you can use to help form your position:</p>
+          <p>-<a href="http://www.openscience.org/blog/?p=269">What is open science?</a> from The OpenScience Project (2009)</p>
+          <p>-<a href="http://blog.f1000research.com/2014/11/11/what-is-open-science/">What is open science?</a> from F1000Research (2014)</p>
+          <p>-<a href="http://opendatahandbook.org/guide/en/what-is-open-data/">What is open data?</a></p>
+          <p>-<a href="https://github.com/mozillascience/open-data-training/blob/master/Materials/Primers/P1_WhyOpenData.md">Open Data Primer 1</a></p>
+          <p>-<a href="https://github.com/mozillascience/open-data-training/blob/master/Materials/Handouts/ODChallengesQI.md">Challenges and Responses to Open Data</a></p>
+          <p>Every community inevidably produces its own terminology and jargon, and the open science and reproducible research community is no exception. Please review the <a href="https://docs.google.com/document/d/1uXZzyXPHNcjCPiR5qkzEuB5u2PUIYQzq0mrG9BtD-Qo/edit#heading=h.tsneh02k2pc8">Open Research Glossary</a> - this is not only an excellent resource for definitions of terminology commonly used in open science, it's also an example of the community-driven products that are common in the open science community. Check out this <a href="https://figshare.com/articles/Open_Research_Glossary/1482094">article</a> describing how this glossary came about.</p>
+          </li>
+
+          <!-- Topic 3 -->
+          <li>
+             <h1>Rules and regulations from funders and institutions</h1>
+            <p>Here's a bit of the legal stuff. Here's a bit about the rules and regulations surrounding reproducibility, sharing and openness.</p>
+            <p>Data Management Plans- Data management plans are now a required part of most federal grant proposals. See the <a href=" http://datasharing.sparcopen.org/ ">SPARC resource</a> for Data Sharing Requirements by Federal Agency.</p>
+            <p>Enforcement- what sort of teeth do the rules and regulations around sharing and reproducibility have? See <a href="http://www.nsf.gov/pubs/2015/nsf15052/nsf15052.pdf">Today’s Data, Tomorrow’s Discoveries</a> NSF's public access plan. </p>
+            <p>Institutional Intellectual Property Policy- become familiar with your own! It might be hard to find. </p>
+
+            </li>
+        </ol>
+
+  <!-- EXERCISES -->
+  	<h2 id="exercises">Exercises</h2>
+      <ol>
+        <li><strong>Find Kent States IP policy, and discuss</strong></li>
+        <p>Sometimes this information can be hard to find, and as we move on to other places, you're going to need to be able to find this information yourself. Search for: </p>
+          “Intellectual property”<br>
+          “IP rights”<br>
+          “Copyright policy”<br>
+          “Data sharing policy”<br>
+          <p> Look on Office of Research or institutional Technology Transfer websites or for an institution-wide policy directory. HINT: WHEN YOU GET LOST AT KENT STATE, LOOK TO THE LIBRARY.</p>
+          <p>Can you interpret the policy in terms of your own work? Here are some questions I'd like you to think about:</p>
+          <p><em>What are the rules or regulations around sharing your particular research products?<br>
+            Does the IP policy support the funding mandates?<br>
+            Who do you go to with questions about this policy?<br>
+            Is the policy different for students vs paid employees?</em></p>
+          <li><strong>Sign up for github</strong></li>
+          <p>If you don't already have a <a href="https://github.com/">github account</a>, please sign up! This will be important as we're organizing our groups for our projects. We'll be learning a lot more about github over the course of our projects, but we'll learn it in bits, so don't let the octocats intimidate you.</p>
+
+      </ol>
+
+  <!-- DISCUSSION -->
+  	<h2 id="discussion">Discussion</h2>
+
+  	<section class="track-details">
+      <section>
+        <h3>Openness and reproducibility in research</h3>
+        <p>
+        So why bother with reproducibility? What's the big deal about openness? How do they fit together? in this, the first class discussion, let's think about your motivations for taking this class. We'll begin the discussion by watching the video together.
+        </p>
+          <h3>Video</h3>
+        <p>
+          <p>Rethinking Research Data  | Kristin Briney | TEDxUWMilwaukee (15:05)</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/dXKbkpilQME" frameborder="0" allowfullscreen></iframe>
+        </p>
+          <h3>Questions</h3>
+        <p>
+
+            <p><em>Do you agree or disagree with Briney’s assertion that publication is advertising? What might make it “advertising” and not “science?” </em></p>
+            <p><em>What are your concerns or challenges to the concept of open data? Why do you support open data or open science?</em> </p>
+
+        </p>
+      </section>
+
+  	</section>
+
+  <!-- Navigate -->
+  	<h2 id="navigate">Navigate</h2>
+
+              <p> <a href="/RQM_FS19/index.html">Home</a>  |  <a href="/RQM_FS19/lessons/week2/index.html">Next Lesson</a></p>
+
+  	</article>
+  </body>
+</html>
